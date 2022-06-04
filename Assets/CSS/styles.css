@@ -2,7 +2,6 @@
 body {
     padding: 0px;
     margin: 0px;
-    background: url(../Images/dev.jpg);
     background-size: cover;
     opacity: 0.95;
     background-attachment: scroll;
@@ -25,5 +24,39 @@ header > nav > #links >ul >li {
 header > nav > #links >ul >li >a {
     color: white;
     text-decoration: none;
+    cursor: pointer;
 }
-
+.footer{
+    margin: 10px 0px 0px 0px ;
+    background-color: #3A4750;
+}
+.footer h3{
+    padding: 15px 0 15px 30px;
+    color: white;
+}
+.footer h3 span{
+    color: #FF8D29;
+}
+.iconfooter{
+    color: #FF8D29;
+    font-size: 30px;
+    padding: 20px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+.footer hr{
+    border: none;
+    border: 1px solid black;
+}
+.footer ul {
+    display: flex;
+    color: white;
+    gap: 80px;
+    justify-content: center;
+    padding: 20px 0 15px 0;
+}
+.footer p{
+    color: white;
+    padding: 20px 0 15px 0;
+    text-align: center;
+}
