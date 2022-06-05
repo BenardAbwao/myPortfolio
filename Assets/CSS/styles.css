@@ -109,3 +109,30 @@ header > nav > #links >ul >li >a {
     padding: 20px 0 15px 0;
     text-align: center;
 }
+
+/* About page styling */
+#dec > .myPic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}
+#dec > .myPic > img {
+    width: 50%;
+    height: 500px;
+}
+#dec > .more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+#dec > .more > h1 {
+    color: peru;
+
+}
+#dec > .more > p {
+    text-align: center;
+    font-style: italic;
+}
+
