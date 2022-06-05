@@ -2,9 +2,7 @@
 body {
     padding: 0px;
     margin: 0px;
-    background-size: cover;
-    opacity: 0.95;
-    background-attachment: scroll;
+    background-color: antiquewhite;
 }
 header > nav {
     background-color: #3A4750;
@@ -26,6 +24,55 @@ header > nav > #links >ul >li >a {
     text-decoration: none;
     cursor: pointer;
 }
+#aboutMe {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+#aboutMe > .image > img {
+    width: 700px;
+    height: 600px;
+}
+#aboutMe > .description {
+    padding-left: 50px;
+    text-align: center;
+}
+#aboutMe > .description > h1 {
+    color: #F6C90e;
+}
+#inspiration {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-top: 20px;
+}
+
+#inspiration > .image1 > img {
+    width: 700px;
+    height: 600px;
+}
+#inspiration > .inspire {
+    padding-left: 50px;
+    text-align: center;
+    padding-right: 50px;
+}
+#inspiration > .inspire > h1 {
+    color: #F6C90E;
+}
+#images > .imager {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#images > .imager > img {
+    width: 280px;
+    height: 200px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
 .footer{
     margin: 10px 0px 0px 0px ;
     background-color: #3A4750;
@@ -43,11 +90,13 @@ header > nav > #links >ul >li >a {
     padding: 20px 0 0 0;
     display: flex;
     justify-content: space-around;
+    text-decoration: none;
 }
 .footer hr{
     border: none;
     border: 1px solid black;
 }
+
 .footer ul {
     display: flex;
     color: white;
