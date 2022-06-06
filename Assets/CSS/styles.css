@@ -33,6 +33,7 @@ header > nav > #links >ul >li >a {
 #aboutMe > .image > img {
     width: 700px;
     height: 600px;
+    border-radius: 20px;
 }
 #aboutMe > .description {
     padding-left: 50px;
@@ -51,6 +52,7 @@ header > nav > #links >ul >li >a {
 #inspiration > .image1 > img {
     width: 700px;
     height: 600px;
+    border-radius: 20px;
 }
 #inspiration > .inspire {
     padding-left: 50px;
@@ -71,6 +73,7 @@ header > nav > #links >ul >li >a {
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
+    border-radius: 20px;
 
 }
 .footer{
@@ -120,6 +123,7 @@ header > nav > #links >ul >li >a {
 #dec > .myPic > img {
     width: 50%;
     height: 500px;
+    border-radius: 20px;
 }
 #dec > .more {
     display: flex;
